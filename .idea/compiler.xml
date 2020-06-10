@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="admin-client" />
+        <module name="admin-server" />
+        <module name="config-client" />
+        <module name="config-server" />
+        <module name="eureka-client" />
+        <module name="eureka-security-server" />
+        <module name="eureka-server" />
+        <module name="feign-service" />
+        <module name="hystrix-dashboard" />
+        <module name="hystrix-service" />
+        <module name="improve" />
+        <module name="oauth2-server" />
+        <module name="ribbon-service" />
+        <module name="sentinel-service" />
+        <module name="turbine-service" />
+        <module name="user-service" />
+        <module name="zuul-proxy" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
