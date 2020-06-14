@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="admin-client" />
         <module name="admin-server" />
+        <module name="base" />
         <module name="config-client" />
         <module name="config-server" />
         <module name="eureka-client" />
@@ -16,7 +17,6 @@
         <module name="feign-service" />
         <module name="hystrix-dashboard" />
         <module name="hystrix-service" />
-        <module name="improve" />
         <module name="oauth2-server" />
         <module name="ribbon-service" />
         <module name="sentinel-service" />
