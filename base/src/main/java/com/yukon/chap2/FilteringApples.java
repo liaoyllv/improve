@@ -56,12 +56,7 @@ public class FilteringApples {
                 return o1.getWeight().compareTo(o2.getWeight());
             }
         });
-        inventory.sort(new Comparator<Apple>() {
-            @Override
-            public int compare(Apple o1, Apple o2) {
-                return o1.getWeight().compareTo(o2.getWeight());
-            }
-        });
+        inventory.sort((o1, o2) -> o1.getWeight().compareTo(o2.getWeight()));
 
         // 定义接口-实现类（策略模式）
 
@@ -72,6 +67,7 @@ public class FilteringApples {
                 return true;
             }
         });
+
 
         // [Apple{color='green', weight=80}, Apple{color='green', weight=155}]
         List<Apple> greenApples = filterApples(inventory, FilteringApples::isGreenApple);
